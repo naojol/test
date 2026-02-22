@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 /home/user/test/post_to_twitter.py",
+            "timeout": 10,
+            "statusMessage": "Twitter に投稿中..."
+          }
+        ]
+      }
+    ]
+  }
+}
